@@ -255,6 +255,17 @@ img {
 	padding: 15px 0;
 	text-align: center;
 }
+.preco .preco-item:nth-child(1) a:hover{
+	color: #ae81ff;
+}
+
+.preco .preco-item:nth-child(2) a:hover{
+	color: #F9265e;
+}
+
+.preco .preco-item:nth-child(3) a:hover{
+	color: #42DAED;
+}
 
 @media (max-width: 800px) {
 	.preco {
@@ -382,6 +393,9 @@ img {
 	border: 0px;
 	padding: 15px 10px;
 }
+.newsletter-form button:hover{
+	color: #0e83cd;
+}
 
 @media(max-width: 600px) {
 	.newsletter-form button{
@@ -401,7 +415,7 @@ img {
 	flex: 1; 
 	text-align: center;
 	font-size: 1.25em;
-	color: black;
+	color: #919090;
 }
 
 /*Menu Mobile*/

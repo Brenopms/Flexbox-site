@@ -39,6 +39,7 @@ $('.menu-nav.mobile-menu li a').click(function(){
 	$('.mobile-btn').toggleClass('active');
 });
 
+// Animação de descida dos itens
 
 (function(){
 	var $target = $('[data-anime="scroll"]'),
